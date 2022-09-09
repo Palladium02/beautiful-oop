@@ -11,7 +11,7 @@ following the OOP style.
 `main` method which will be executed automatically.
 
 ```ts
-import { Main } from 'beautiful-oop/core';
+import { Main } from 'beautiful-oop/packages/core';
 
 @Main
 class App {
@@ -23,7 +23,7 @@ class App {
 
 ## events
 
-`beautiful-oop/events` provides you with some functionality for handling
+`beautiful-oop/packages/events` provides you with some functionality for handling
 events that are dispatched when a method is executed.
 
 ### events/@On
@@ -31,7 +31,7 @@ events that are dispatched when a method is executed.
 `@On` marks a method as handler for a given event.
 
 ```ts
-import { On } from 'beautiful-oop/events';
+import { On } from 'beautiful-oop/packages/events';
 
 class Handler {
   @On('Event')
