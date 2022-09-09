@@ -1,0 +1,16 @@
+{
+  "name": "beautiful-oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:core": "npx tsc -p ./packages/core/tsconfig.json",
+    "build:events": "npx tsc -p ./packages/events/tsconfig.json"
+  },
+  "author": "Sean Meyer",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
