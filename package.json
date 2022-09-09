@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "exports": {
-    "./core": "./packages/core/build/index.js",
-    "./events": "./packages/events/build/index.js"
+    "./core": "./packages/core",
+    "./events": "./packages/events/"
   },
   "scripts": {
     "build:core": "npx tsc -p ./packages/core/tsconfig.json",
