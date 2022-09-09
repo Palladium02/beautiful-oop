@@ -2,8 +2,9 @@
   "name": "@beautiful-oop/events",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "author": "Sean Meyer",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true
 }
