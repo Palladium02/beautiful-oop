@@ -5,18 +5,34 @@ following the OOP style.
 
 ## core
 
-### core/@Main
+### core/@Runnable
 
-`@Main` marks a class as main entry point. A marked class should have a static
+`@Runnable` marks a class as main entry point. A marked class should have a static
 `main` method which will be executed automatically.
 
 ```ts
 import { Runnable } from 'beautiful-oop/packages/core';
 
-@Runnable()
+@Runnable
 class App {
   public static main() {
     // your code goes here
+  }
+}
+```
+
+### core/@Measure
+
+A classs method decorated with `@Measure` will get its execution time
+measured. The result will be printed to the console.
+
+```ts
+import { Measure } from 'beautiful-oop/packages/core';
+
+class App {
+  @Measure
+  public someMethod() {
+    // some code
   }
 }
 ```
