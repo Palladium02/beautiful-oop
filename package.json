@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "exports": {
-    "./core": "./packages/core",
-    "./events": "./packages/events/"
-  },
   "scripts": {
     "build:core": "npx tsc -p ./packages/core/tsconfig.json",
     "build:events": "npx tsc -p ./packages/events/tsconfig.json"
