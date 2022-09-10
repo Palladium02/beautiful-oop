@@ -11,9 +11,9 @@ following the OOP style.
 `main` method which will be executed automatically.
 
 ```ts
-import { Main } from 'beautiful-oop/packages/core';
+import { Runnable } from 'beautiful-oop/packages/core';
 
-@Main
+@Runnable()
 class App {
   public static main() {
     // your code goes here

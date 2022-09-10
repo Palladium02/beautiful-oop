@@ -1,1 +1,1 @@
-export { Main } from './main';
+export { Runnable } from './runnable';

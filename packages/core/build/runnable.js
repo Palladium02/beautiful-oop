@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Main = void 0;
-function Main(constructor) {
+exports.Runnable = void 0;
+function Runnable(constructor) {
     constructor['main']();
 }
-exports.Main = Main;
+exports.Runnable = Runnable;
